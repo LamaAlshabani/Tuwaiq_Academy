@@ -253,6 +253,28 @@ def update_bottom_section_live(n):
                                 )
                             ]
                         ),
+                      
+                        # html.Div(
+                        #    className='col',
+                        #    children=[
+                        #         dcc.Graph(id='pie-chart', figure={'data': [
+                        #         go.Pie(labels=['Positives', 'Negatives', 'Neutrals'],
+                        #                        values=[positive_num, negative_num, neutral_num],
+                        #                        name="View Metrics",
+                        #                        opacity=0.7,
+                        #                        marker_colors=[POSITIVE_COLOR, NEGATIVE_COLOR, NEUTRAL_COLOR],
+                        #                        textinfo='value',
+                        #                        hole=0.65)],
+                        #                 'layout': {'showlegend': False,
+                        #                            'title': 'Positive VS. negative Vs. neutral tweets in last 30 minutes',
+                        #                            'annotations': [
+                        #                                dict(text='{0:.1f}K'.format(
+                        #                                    (positive_num + negative_num + neutral_num) / 1000),
+                        #                                     font=dict(size=40), showarrow=False)]
+                        #                            }
+                        #             }
+                        #                       )
+                        #  
                     ]
                 )
             ]
